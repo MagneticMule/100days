@@ -20,6 +20,19 @@ There are a wealth of [Gatsby Starters](https://www.gatsbyjs.com/starters/? Gats
 
 I didn't do a great deal to the starter template, just cahnged the favicon and bio. I may come back and change things later but I need to get this thing up and out the way.
 
+After I deleted and created my first blog post (the one you are reading here) I made a new [GitHub repo](https://github.com/MagneticMule/100days.git Github repository for this blog here that you are now reading) to store this thing. Then commited the blog to the new repo.
+
+```
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MagneticMule/100days.git
+git push -u origin main
+```
+
+All well and good but I still needed some hosting. I have been using Netlify for a year or two to host a couple of client projects and it has been more than fine. Hell, it's fast, fun and free (within reason).
+
+Creating a new site was as easy as pointing Netlify to my new blog repository, waiting until Netlify did it's build magic then bam! A new site is live.
+
 ## What did I learn?
 
-For me the purpose of 100 days of code is to focus on learning one thing a day or at least discivering something new. TO be frank, I didn;t learn much wiht this project. I already know GatsbyJS reasonably well and have used it for two client projects (yes, paying clients). However, as is the case with much of my dev practice I am rusty. Here I get a chance to write in MarkDown each day, something I haven't done since 2005.
+For me the purpose of 100 days of code is to focus on learning one thing a day or at least discivering something new. Tb be frank, I didn;t learn much wiht this project. I already know GatsbyJS reasonably well and have used it for two client projects (yes, paying clients). However, as is the case with much of my dev practice I am rusty. Here I get a chance to write in MarkDown each day, something I haven't done since 2005.

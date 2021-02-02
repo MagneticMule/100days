@@ -8,7 +8,7 @@ module.exports = {
       Why am I doing this? Well, I need practice and motivation in all the new fancy hispter tech the kids are using these days. Why else?`,
     },
     description: `Mr Tommy and his 100 days of code. This is not the site you are looking for, move along`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
+    siteUrl: `https://mr-tommy-100days.netlify.app/`,
     social: {
       twitter: `magneticmule`,
     },
