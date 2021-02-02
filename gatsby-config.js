@@ -1,14 +1,16 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Mr Tommy and his 100 days of code`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Thomas D Sweeney`,
+      summary: `is an old fart with too many degrees and too little knowledge.
+      This site is a record of my 100 days of code.
+      Why am I doing this? Well, I need practice and motivation in all the new fancy hispter tech the kids are using these days. Why else?`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Mr Tommy and his 100 days of code. This is not the site you are looking for, move along`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `magneticmule`,
     },
   },
   plugins: [
@@ -66,7 +68,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/tommy-icon.png`,
       },
     },
     `gatsby-plugin-react-helmet`,
